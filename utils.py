@@ -36,7 +36,7 @@ def find_ffmpeg():
     """
     ffmpeg_path = shutil.which("ffmpeg")
     if ffmpeg_path is None:
-        print("error: FFmpeg not found. Checked path:", ffmpeg_path)
+        print("error: FFmpeg not found.")
         sys.exit(1)
 
     return ffmpeg_path
